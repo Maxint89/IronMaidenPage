@@ -34,7 +34,7 @@ h1{
 }
 
 .discos{
-    background-image: url(../img/prueba.jpg);
+    background-image: url(../img/imagediscography.jpg);
     background-size: 200px;
     background-repeat: repeat;
 }
@@ -53,11 +53,6 @@ h1{
     background-color: #00000fc9;
     list-style-type:none;
     font-size: 2rem;
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;*/
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
@@ -76,7 +71,7 @@ h1{
 }
 
 .videoMaiden{
-    opacity: 75%;;
+    opacity: 75%;
 }
 
 .foto1, .foto2, .foto3{
@@ -119,14 +114,6 @@ h1{
         "album-10   album-11   album-12"
         "album-13   album-14   album-15"
         "album-16   album-17   .";
-    
-    
-   
-        /*justify-items: stretch;
-    align-items: stretch;
-
-    flex-wrap: wrap;
-    justify-content: space-around;*/
 }
 
 .album-1{
@@ -198,10 +185,6 @@ h1{
 }
 
 .caratula{
-    /*width: calc(33.33% - 20px);
-    margin: 20px 0;
-    text-align: center;*/
-
     display: grid;
     justify-content: center;
     align-items: center;
@@ -255,12 +238,6 @@ label, .campo-form p{
     font-size: 1.25rem;
 }
 
-/* .campo-form{
-    padding: 15px;
-    text-align: center;
-
-}
- */
 footer {
     background-color:#00000fcb;
     color: #ffffff;
