@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,600;0,800;1,100&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: #00000f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1{
+    font-weight: 800;
+}
+
+.inicio{
+    background-image: url(../img/imageindex.jpg);
+    
+}
+
+.historia{
+    background-image: url(../img/imageband.jpg);
+}
+
+.recitales{
+    background-image: url(../img/imageconcert.jpg);
+    background-size: 600px;
+    background-repeat: repeat;
+}
+
+.discos{
+    background-image: url(../img/prueba.jpg);
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+.contacto{
+    background-image: url(../img/imagecontact.jpg);
+}
+
+
+.encabezado{
+    background-color: #00000fc9;
+    font-size: 30px;
+}
+
+.menuppal{
+    background-color: #00000fc9;
+    list-style-type:none;
+    font-size: 2rem;
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.logo a img{
+    width: 300px;
+}
+
+.menuitem a{
+    color: #cb3d3d;
+    text-decoration: none;
+}
+
+.videoMaiden, .fotosBanda{
+    text-align: center;
+}
+
+.videoMaiden{
+    opacity: 75%;;
+}
+
+.foto1, .foto2, .foto3{
+    width: 400px;
+    height: 200px;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.pieArticulo, .banda, .integrantes{
+    color: #cb3d3d;
+    background-color: #00000fc9;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin: .5rem 0;
+}
+
+.tituloHistoria{
+    font-size: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 2.5rem;
+}
+
+.historiaBanda, .titulo-concierto{
+    font-size: 24px;
+    color: #cb3d3d;
+}
+
+.miembros{
+    list-style-type: none;
+}
+
+.albums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: 
+        "album-1    album-2    album-3"
+        "album-4    album-5    album-6"
+        "album-7    album-8    album-9"
+        "album-10   album-11   album-12"
+        "album-13   album-14   album-15"
+        "album-16   album-17   .";
+    
+    
+   
+        /*justify-items: stretch;
+    align-items: stretch;
+
+    flex-wrap: wrap;
+    justify-content: space-around;*/
+}
+
+.album-1{
+    grid-area: album-1;
+}
+
+.album-2{
+    grid-area: album-2;
+}
+
+.album-3{
+    grid-area: album-3;
+}
+
+.album-4{
+    grid-area: album-4;
+}
+
+.album-5{
+    grid-area: album-5;
+}
+
+.album-6{
+    grid-area: album-6;
+}
+
+.album-7{
+    grid-area: album-7;
+}
+
+.album-8{
+    grid-area: album-8;
+}
+
+.album-9{
+    grid-area: album-9;
+}
+
+.album-10{
+    grid-area: album-10;
+}
+
+.album-11{
+    grid-area: album-11;
+}
+
+.album-12{
+    grid-area: album-12;
+}
+
+.album-13{
+    grid-area: album-13;
+}
+
+.album-14{
+    grid-area: album-14;
+}
+
+.album-15{
+    grid-area: album-15;
+}
+
+.album-16{
+    grid-area: album-16;
+}
+
+.album-17{
+    grid-area: album-17;
+}
+
+.caratula{
+    /*width: calc(33.33% - 20px);
+    margin: 20px 0;
+    text-align: center;*/
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.caratula img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.tour{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.titulo-concierto{
+    background-color: #00000fc9;
+}
+
+table {
+    background-color: #00000fc9;
+    color:#cb3d3d;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.formulario{
+    margin-inline: 1rem;
+    padding-inline: 1.5rem;
+    align-items: center;
+
+}
+
+label, .campo-form p{
+    color: #cb3d3d;
+    font-size: 1.25rem;
+}
+
+/* .campo-form{
+    padding: 15px;
+    text-align: center;
+
+}
+ */
+footer {
+    background-color:#00000fcb;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    display: block;
+}
+
+.titlefoot{
+    color: #cb3d3d;
+    margin-bottom: 2rem;
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 1rem 2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#facebook-icon:hover {
+    color: #1877f2; /* Color de Facebook en hover */
+}
+
+#instagram-icon:hover {
+    color: #e4405f; /* Color de Instagram en hover */
+}
+
+#youtube-icon:hover {
+    color: #ff0000; /* Color de YouTube en hover */
+}
+
+#spotify-icon:hover {
+    color: #1db954; /* Color de Spotify en hover */
+}
+
+@media (max-width:650px){
+    iframe{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .foto1, .foto2, .foto3{
+        width: 300px;
+        height: 150px;
+        margin: .5rem;
+        padding: .5rem;
+        cursor: pointer;
+    }
+
+    .escala:hover{
+        transform: scale(1.3);
+    }
+
+    .albums{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "album-1    album-2"
+        "album-3    album-4"
+        "album-5    album-6"
+        "album-7    album-8"
+        "album-9    album-10"
+        "album-11   album-12"
+        "album-13   album-14"
+        "album-15   album-16"
+        "album-17   .";
+      }
+    
+      
+}
+
+@media (max-width: 505px){
+    .pieArticulo {
+            padding: .5rem 1rem;
+            font-size: 24px;
+        }
+}
+
+@media (max-width: 434px){
+    .albums{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "album-1"    
+        "album-2"
+        "album-3"
+        "album-4"
+        "album-5"
+        "album-6"
+        "album-7"
+        "album-8"
+        "album-9"
+        "album-10"
+        "album-11"
+        "album-12"
+        "album-13"
+        "album-14"
+        "album-15"
+        "album-16"
+        "album-17";
+      }
+    
+    .redes-sociales {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            margin: 20px;
+            padding: 20px;
+        }
+
+    .caratula img{
+            border-radius:50%;
+        }
+}
