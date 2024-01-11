@@ -322,7 +322,8 @@ footer {
 @media (max-width: 434px){
     .albums{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 70%;
+        justify-content: space-around;
         grid-template-areas: 
         "album-1"    
         "album-2"
